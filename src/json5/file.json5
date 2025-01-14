@@ -1,0 +1,5 @@
+// 这是一个json5格式的文件
+{
+  name: "测试json5",
+  descrition: "json5文件可以写注释",
+}

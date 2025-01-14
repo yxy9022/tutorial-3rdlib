@@ -1,0 +1,29 @@
+{
+  "name": "tutorial-3rdlib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@ant-design/colors": "^7.1.0",
+    "appkey": "^1.1.1",
+    "await-to-js": "^3.0.0",
+    "color": "^4.2.3",
+    "commander": "^12.1.0",
+    "compressing": "^1.10.0",
+    "crypto-js": "^4.2.0",
+    "fflate": "^0.8.2",
+    "js-base64": "^3.7.7",
+    "json5": "^2.2.3",
+    "lodash": "^4.17.21",
+    "safe-json-parse": "^4.0.0",
+    "secure-json-parse": "^2.7.0",
+    "spark-md5": "^3.0.2",
+    "tiny-emitter": "^2.1.0",
+    "tinycolor2": "^1.6.0",
+    "ua-parser-js": "^1.0.38",
+    "yup": "^1.5.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}

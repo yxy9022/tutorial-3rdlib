@@ -1,0 +1,42 @@
+{
+  // 关闭 Vetur，因为我们使用 Volar
+  "vetur.experimental.templateInterpolationService": false,
+
+  // 确保 Volar 取代 Vetur 成为默认的 Vue 功能支持插件
+  "files.associations": {
+    "*.vue": "vue"
+  },
+
+  // 配置 ESLint 插件
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue"],
+
+  // 启用 ESLint 以在保存时自动修复可修复的问题
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // 配置 Prettier 作为默认代码格式化工具
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // 在保存时自动格式化代码
+  "editor.formatOnSave": true,
+
+  // 配置 Prettier 以遵循你的代码风格
+  "prettier.singleQuote": true,
+  "prettier.semi": false
+}

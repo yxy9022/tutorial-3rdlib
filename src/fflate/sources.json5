@@ -1,0 +1,174 @@
+// http://wiki.vhallops.com/pages/viewpage.action?pageId=371264703
+// 测试数据源
+[
+  /************* 无压缩单条数组式Chat通道上线消息 **************/
+  {
+    description: "无压缩单条数组式Chat通道上线消息",
+    isChatChannel: true,
+    origin: [
+      {
+        uv: 1,
+        service_type: "service_type",
+        date_time: "2024-04-28 15:59:55",
+        data: '{"hide":0,"socket_id":"edKWzl5QvBaX3b2Ofd3Q","type":"Join"}',
+        msg_source: "prefix01",
+        pv: 1,
+        channel: "ch_cQ2sLje6",
+        sender_id: "71739552",
+      },
+    ],
+    message: {
+      channel: "ch_dYwDSAs9",
+      id: "9",
+      tag: "1",
+      time: "Mon, 29 Apr 2024 01:41:46 GMT",
+      text: "%5B%7B%22uv%22%3A1%2C%22service_type%22%3A%22service_type%22%2C%22date_time%22%3A%222024-04-28%2015%3A59%3A55%22%2C%22data%22%3A%22%7B%5C%22hide%5C%22%3A0%2C%5C%22socket_id%5C%22%3A%5C%22edKWzl5QvBaX3b2Ofd3Q%5C%22%2C%5C%22type%5C%22%3A%5C%22Join%5C%22%7D%22%2C%22msg_source%22%3A%22prefix01%22%2C%22pv%22%3A1%2C%22channel%22%3A%22ch_cQ2sLje6%22%2C%22sender_id%22%3A%2271739552%22%7D%5D",
+    },
+  },
+  /************* 压缩单条数组式Chat通道上线消息 **************/
+  {
+    description: "压缩单条数组式Chat通道上线消息",
+    isChatChannel: true,
+    origin: [
+      {
+        uv: 1,
+        service_type: "service_type",
+        date_time: "2024-04-28 15:59:55",
+        data: '{"hide":0,"socket_id":"edKWzl5QvBaX3b2Ofd3Q","type":"Join"}',
+        msg_source: "prefix01",
+        pv: 1,
+        channel: "ch_cQ2sLje6",
+        sender_id: "71739552",
+      },
+    ],
+    message: {
+      channel: "ch_dYwDSAs9",
+      id: "9",
+      tag: "1",
+      time: "Mon, 29 Apr 2024 01:41:46 GMT",
+      text: "%7B%22comp_alg%22%3A%22gz%22%2C%22encoding%22%3A%22b64_2%22%2C%22content%22%3A%22H4sIAAAAAAAAAFWPzQ6CMBCEX8XsGRIoVrRHj2piOGliTYPtIlUphALxJ767i5687ew32Zk9vKAfQMQBeGwHq1F1jwZB%2FMsATN7RbKsRsYhNw2gasvkk5oIvBOc%2FR07wJaG0BiWIKJDga33FTllDWgKa9e5549mwzPfJiW0Lk2QSyDaGfB2r2joJbzpX%2BbPydd%2FqMbFpsbD3KKZ982ury9w5vBHTpdIZ85sLzmD8whlsKZBIGqfJgnMG7%2BMH2X6kNecAAAA%3D%22%7D",
+    },
+  },
+  /************* 压缩多条Chat通道新老上线消息 **************/
+  {
+    description: "压缩多条Chat通道新老上线消息",
+    isChatChannel: true,
+    origin: [
+      {
+        uv: 1,
+        service_type: "service_type",
+        date_time: "2024-04-28 15:59:55",
+        data: '{"hide":0,"socket_id":"edKWzl5QvBaX3b2Ofd3Q","type":"Join"}',
+        msg_source: "prefix01",
+        pv: 1,
+        channel: "ch_cQ2sLje6",
+        sender_id: "71739552",
+      },
+      {
+        connection_online_num: 1,
+        data: '{"hide":0,"socket_id":"edKWzl5QvBaX3b2Ofd3Q","type":"Join"}',
+        channel: "ch_cQ2sLje6",
+        user_online_num: 1,
+        event: "Join",
+        third_party_user_id: "71739552",
+      },
+    ],
+    message: {
+      channel: "ch_dYwDSAs9",
+      id: "9",
+      tag: "1",
+      time: "Mon, 29 Apr 2024 01:41:46 GMT",
+      text: "%7B%22comp_alg%22%3A%22gz%22%2C%22encoding%22%3A%22b64_2%22%2C%22content%22%3A%22H4sIAAAAAAAAAK2QQU%2FDMAyF%2FwryuZPadGGsR46AhHoCiaAoJB4NtEmVpBWj2n%2FH6U5M4sbN9vvi95yXBaYZmqqAiGG2GmU6jgjN77YAoxLVdsgSK9l2U2437Oaq4g3fN5yfCUXiIqCzBgU0ZSEgev2JSVpDvQA090%2FfPW%2FnW%2FVcv7HHg6lbAYRlk5W489YJONG6Ib7L6Kegs%2BMY8GC%2Fyorm4zmt7pRz2JOmO6lbFh8%2B8BryFc5gIENSdtWu3nPO4FQsoD3xOlnvpHe9dSjdNKyr%2Fjn4X8km%2BtFLa5zRJSLza0JSZ4ORowrpKFf84ozXH8Or%2FoOuAQAA%22%7D",
+    },
+  },
+  /************* 无压缩单条SIO通道原房间消息（需兼容） **************/
+  {
+    description: "无压缩单条SIO通道原房间消息（需兼容）",
+    isChatChannel: false,
+    origin: null,
+    message: {
+      uv: 1,
+      service_type: "service_room",
+      date_time: "2024-04-28 10:07:47",
+      data: '{"duration":0,"room_announcement_text":"123232323","event_type":"room_announcement","room_join_id":"106187","set_type":1,"id":"f551e51c-0b24-43b1-bd8c-99fcacd7a95c","type":"room_announcement","push_time":"2024-04-28 10:07:47"}',
+      msg_source: "prefix01",
+      pv: 1,
+      channel: "ch_cQ2sLje6",
+      sender_id: "71739552",
+    },
+  },
+  /************* 无压缩单条数组式SIO通道新格式房间消息 **************/
+  {
+    description: "无压缩单条数组式SIO通道新格式房间消息",
+    isChatChannel: false,
+    origin: null,
+    message: {
+      comp_alg: "n",
+      encoding: "text",
+      content: '[["msg",{"uv":1,"service_type":"service_room","date_time":"2024-04-28 10:07:47","data":"{\\"duration\\":0,\\"room_announcement_text\\":\\"123232323\\",\\"event_type\\":\\"room_announcement\\",\\"room_join_id\\":\\"106187\\",\\"set_type\\":1,\\"id\\":\\"f551e51c-0b24-43b1-bd8c-99fcacd7a95c\\",\\"type\\":\\"room_announcement\\",\\"push_time\\":\\"2024-04-28 10:07:47\\"}","msg_source":"prefix01","pv":1,"channel":"ch_cQ2sLje6","sender_id":"71739552"}]]',
+    },
+  },
+  /************* 压缩单条数组式SIO通道房间消息 **************/
+  {
+    description: "压缩单条数组式SIO通道房间消息",
+    isChatChannel: false,
+    origin: [
+      [
+        "msg",
+        {
+          uv: 1,
+          service_type: "service_room",
+          date_time: "2024-04-28 10:07:47",
+          data: '{"duration":0,"room_announcement_text":"123232323","event_type":"room_announcement","room_join_id":"106187","set_type":1,"id":"f551e51c-0b24-43b1-bd8c-99fcacd7a95c","type":"room_announcement","push_time":"2024-04-28 10:07:47"}',
+          msg_source: "prefix01",
+          pv: 1,
+          channel: "ch_cQ2sLje6",
+          sender_id: "71739552",
+        },
+      ],
+    ],
+    message: {
+      comp_alg: "gz",
+      encoding: "b64_2",
+      content: "H4sIAAAAAAAAAIWQwW6DMAyGX2XyGaQkkAZ4hl12bioUghlUJSASUKeq7z4Tpl42acrJ+X7byXc+w+g/IXnAukHFE/C4bIPFOnzNCNWrXKZphARaEwgN444EE3nK8lQUb5xVTFW5OhKG4ENDuy4mDJPTULFEwz6hNs5Nq7M4ogt1wHsgqIGL7DgaKIhbhLQ/wl99MRRvr9Pg6qE9ZrATL1RkHl/tnMqfQCclR8ltyhp6d541PG3awqZl2VljW2VKaWP7P5vn1fdRQcz8IUHDkzyQ1dpP62J3VfOC3XBnnO7nQ7PtaTDeiNm+th/Cv1/xBLt+1+JCnyKiuMpKKQU8L5dvM1rpJ6gBAAA=",
+    },
+  },
+  /************* 压缩多条SIO通道房间消息 **************/
+  {
+    description: "压缩多条SIO通道房间消息",
+    isChatChannel: false,
+    origin: [
+      [
+        "msg",
+        {
+          uv: 1,
+          service_type: "service_room",
+          date_time: "2024-04-28 10:07:47",
+          data: '{"duration":0,"room_announcement_text":"123232323","event_type":"room_announcement","room_join_id":"106187","set_type":1,"id":"f551e51c-0b24-43b1-bd8c-99fcacd7a95c","type":"room_announcement","push_time":"2024-04-28 10:07:47"}',
+          msg_source: "prefix01",
+          pv: 1,
+          channel: "ch_cQ2sLje6",
+          sender_id: "71739552",
+        },
+      ],
+      [
+        "msg",
+        {
+          connection_online_num: 1,
+          date_time: "2024-04-28 10:07:47",
+          data: '{"duration":0,"room_announcement_text":"123232323","event_type":"room_announcement","room_join_id":"106187","set_type":1,"id":"f551e51c-0b24-43b1-bd8c-99fcacd7a95c","type":"room_announcement","push_time":"2024-04-28 10:07:47"}',
+          channel: "ch_cQ2sLje6",
+          user_online_num: 1,
+          event: "Inav",
+          type: "room_announcement",
+          third_party_user_id: "71739552",
+        },
+      ],
+    ],
+    message: {
+      comp_alg: "gz",
+      encoding: "b64_2",
+      content: "H4sIAAAAAAAAAO2TQW6DMBBFr1LNGiSbQAjcoFI3XYfIcuxJcRRsZAxKFOXuHUyURdqqPUDllf3+/MF/8HYL3fAByRXGCWqewIB+MgpFuPQI9WPrnesgAS0DIdPNKGNZnrI8zTYvnNWsrPNyUUiC1wb06GUwzjZQs6SB2UFIa91oFXZogwh4DgQb4NlqWQ2QEKcIqX+EX+qiKJ4enbHC6MWDrfmmjGzARzmn7V1wKAqOBVcp29N356s9T/d6o9KqOiipdCmrQsXyXzr349DGCKLmmxAauFEOlKoY3OjVHFXv8WDOjNN5v8SsWjLGEzHVCvWeDW9HXMMcv9Xo6VJESl6uqqLI4LZLHmNSjurUnKtw9mQsCjt20fJ/Nn+dzU/hj/S3P6cab0zKVysnktyfxZf2M2qN16KXPlxEdHoe4u4T1eO6qG0DAAA=",
+    },
+  },
+]
