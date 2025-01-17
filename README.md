@@ -14,6 +14,7 @@
 - js-base64: 一个用于在 JavaScript 中进行 Base64 编码和解码的轻量级库。
 - json5: JSON5 是一个基于 JSON（JavaScript Object Notation）格式的扩展
 - loadsh: 一个可以提高开发者效率、提高原生 JS 方法性能的 JavaScript 第三方实用工具库。
+- mockjs: 一个用于生成模拟数据的 JavaScript 库。它主要用于前端开发和测试。
 - safe-json-parse: 一个安全解析 JSON 的 JavaScript 库。能够优雅地处理 JSON 解析过程中的错误。
 - screenfull：用于跨浏览器使用 JavaScript Fullscreen(全屏) API 的简单包装 javascript 库。
 - secure-json-parse: 一个用于安全解析 JSON 输入的 JavaScript 库。可以保护你免受 JSON 解析过程中可能遇到的某些攻击，比如原型污染
